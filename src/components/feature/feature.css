@@ -1,0 +1,36 @@
+.feature__boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(199, 205, 221);
+  margin: 1rem 1rem;
+  padding: 1.5rem;
+  width: 220px;
+  height: 220px;
+}
+.feature__boxes__img {
+  background-color: #0e7ad8;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.feature_box > h2 {
+  font-weight: 500;
+}
+
+.feature_box > p {
+  color: var(--lite);
+}
+
+@media only screen and (min-width: 676px) {
+  .feature__box {
+    margin: 1rem 3rem;
+  }
+}
