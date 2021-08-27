@@ -3,7 +3,7 @@ import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Sidebar from "./../sidebar/Sidebar";
 function MobileNavbar() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   return (
     <nav className="mnavbar">
       <div className="logo">nullBrains.</div>
