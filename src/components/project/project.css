@@ -1,6 +1,6 @@
 .paint {
   padding: 0.5rem 0;
-  background-color: rgb(224, 220, 220);
+  background-color: rgb(218, 231, 240);
 }
 .project {
   margin: 5rem 1rem;
@@ -100,7 +100,10 @@
   max-width: 300px;
   border-radius: 10px;
 }
-
+.smallcard__img:hover {
+  transform: scale(1.05);
+  transition: 300ms;
+}
 .smallcard__tag {
   position: relative;
   font-size: 0.7rem;

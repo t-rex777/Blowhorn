@@ -10,7 +10,9 @@ function Team() {
       <div className="team__members">
         {teams.map(({ img, name, position }) => (
           <div className="team__member">
+            <div className="img_wrapper">
             <img className="team__member__img" src={img} alt="member" />
+            </div>
             <p align="center" className="team__member__name">
               {name}
             </p>
