@@ -1,0 +1,44 @@
+.team {
+  margin: 3rem 2rem;
+}
+.team > h1 {
+  font-size: 1.5rem;
+}
+.team > p {
+  color: var(--primary);
+  font-weight: 700;
+}
+.team__members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team__member {
+  margin: 1rem;
+}
+.team__member__img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.team__member__name {
+  font-weight: 700;
+}
+.team__member__position {
+  color: var(--primary);
+  font-weight: 600;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .team__member {
+    margin: 1rem 3rem;
+  }
+  .team > h1 {
+    font-size: 2rem;
+  }
+}

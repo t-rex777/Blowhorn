@@ -1,5 +1,6 @@
 :root{
-  --lite : #716F81 
+  --lite : #716F81 ;
+  --primary : #0e7ad8
 }
 body {
   margin: 0;

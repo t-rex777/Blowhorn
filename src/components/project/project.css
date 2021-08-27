@@ -1,0 +1,127 @@
+.paint {
+  padding: 0.5rem 0;
+  background-color: rgb(224, 220, 220);
+}
+.project {
+  margin: 5rem 1rem;
+}
+/* bigcard */
+.bigcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bigcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+  padding: 2rem 1.5rem;
+  color: #fff;
+  border-radius: 10px;
+  margin: 1rem;
+  line-height: 1.8rem;
+}
+.bigcard__img {
+  width: 200px;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.img1 {
+  background-color: #6c63ff;
+}
+.img2 {
+  background-color: #81c0dd;
+}
+.img3 {
+  background-color: #dbb77c;
+}
+.card1 {
+  background-color: #403c92;
+}
+.card2 {
+  background-color: #00b0ff;
+}
+.card3 {
+  background-color: #f9a826;
+}
+.c1 {
+  color: #403c92;
+}
+.c2 {
+  color: #00b0ff;
+}
+.c3 {
+  color: #f9a826;
+}
+.bigcard__tag {
+  position: relative;
+  font-size: 0.7rem;
+  top: -12px;
+  background-color: #fff;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+.bigcard__info {
+  line-height: 1.2rem;
+}
+
+@media only screen and (min-width: 676px) {
+  .project {
+    margin: 2.5rem;
+  }
+  .project__header {
+    margin-left: 3rem;
+  }
+}
+
+/* smallcard */
+.smallcards {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smallcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  padding: 2rem 0.5rem;
+  border-radius: 12px;
+  margin: 0rem 1rem;
+  box-sizing: border-box;
+}
+
+.smallcard__img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.smallcard__tag {
+  position: relative;
+  font-size: 0.7rem;
+  top: -12px;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.smallcard__header {
+  margin-top: -0.5rem;
+  align-self: flex-start;
+}
+.smallcard__info {
+  margin-top: -0.75rem;
+  font-size: 0.8rem;
+  color: var(--lite);
+}
+
+@media only screen and (min-width: 676px) {
+  .smallcards {
+    margin-top: 0rem;
+  }
+}

@@ -8,24 +8,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(199, 205, 221);
-  margin: 1rem 1rem;
+  background-color: rgb(220, 222, 226);
+  margin: 1rem 2rem;
   padding: 1.5rem;
   width: 220px;
   height: 220px;
+  border-radius: 10px;
 }
 .feature__boxes__img {
-  background-color: #0e7ad8;
+  background-color: var(--primary);
   padding: 10px;
   color: #fff;
   border-radius: 50%;
 }
 
-.feature_box > h2 {
+.feature__box > h2 {
   font-weight: 500;
 }
 
-.feature_box > p {
+.feature__box > p {
   color: var(--lite);
 }
 

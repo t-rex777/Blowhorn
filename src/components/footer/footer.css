@@ -1,0 +1,30 @@
+footer {
+  padding: 0.5rem 0;
+  background-color: rgb(224, 220, 220);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--lite);
+}
+
+.footer__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer__item {
+  margin: 0.7rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.footer__item:hover {
+  color: #000;
+}
+
+@media only screen and (min-width: 676px) {
+  .footer__item {
+    font-size: 1rem;
+  }
+}
