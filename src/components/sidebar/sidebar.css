@@ -1,0 +1,26 @@
+.sidebar {
+  display: none;
+  height: 100vh;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 54px;
+  background-color: rgb(236, 230, 230);
+  padding: 0.4rem 2rem;
+  z-index: 1;
+}
+@media only screen and (max-width: 678px) {
+  .sidebar {
+    display: flex;
+    transition: 300ms;
+  }
+}
+.sidebar__off {
+  transform: translateX(100%);
+}
+
+.sidebar__item {
+  padding: 1rem 1rem 1rem 0;
+  font-weight: 600;
+}
+
