@@ -15,7 +15,7 @@ function Sidebar({ toggle, setSignin, setSignup, setContact }) {
       <div className="sidebar__item" onClick={() => setContact(true)}>
         <a href="#contact">Contact</a>
       </div>
-      <div className="sidebar__item">Search</div>
+      {/* <div className="sidebar__item">Search</div> */}
       <div className="sidebar__item" onClick={() => setSignin(true)}>
         Sign In
       </div>

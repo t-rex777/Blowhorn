@@ -19,9 +19,9 @@ function Navbar({ setSignin, setSignup, setContact }) {
         <div className="nav__item" onClick={() => setContact(true)}>
           <a href="#contact">Contact</a>
         </div>
-        <div className="nav__item" >
+        {/* <div className="nav__item" >
           <BsSearch size={15} style={{ marginTop: "10px" }} />
-        </div>
+        </div> */}
       </div>
       <div className="nav__items">
         <div className="nav__item">
