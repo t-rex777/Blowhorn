@@ -9,10 +9,10 @@ import deisgnmindImg from "../../images/designmind.jpg";
 
 function Project() {
   return (
-    <div className="paint">
+    <div className="paint" id="blog">
       <div className="project">
-        <h1>The Project Blog</h1>
-        <p>Designs and layouts to help you with your app.</p>
+        <h1 align="center">The Project Blog</h1>
+        <p align="center">Designs and layouts to help you with your app.</p>
         <div className="bigcards">
           <div className="bigcard card1">
             <img src={designImg} alt="bigcard" className="bigcard__img img1" />

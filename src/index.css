@@ -2,6 +2,9 @@
   --lite : #716F81 ;
   --primary : #0e7ad8
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,3 +18,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

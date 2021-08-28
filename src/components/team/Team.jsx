@@ -5,13 +5,13 @@ import { AiOutlineTwitter, AiFillGithub } from "react-icons/ai";
 function Team() {
   return (
     <div className="team">
-      <p>OUT TEAM</p>
-      <h1>An incredible team of amazing individuals</h1>
+      <p align="center">OUT TEAM</p>
+      <h1 align="center">An incredible team of amazing individuals</h1>
       <div className="team__members">
         {teams.map(({ img, name, position }) => (
           <div className="team__member">
             <div className="img_wrapper">
-            <img className="team__member__img" src={img} alt="member" />
+              <img className="team__member__img" src={img} alt="member" />
             </div>
             <p align="center" className="team__member__name">
               {name}

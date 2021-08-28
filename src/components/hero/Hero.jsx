@@ -3,7 +3,7 @@ import "./hero.css";
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero__header">
+      <div className="hero__header" id="home">
         <h1>Start Crafting Your</h1>
         <h1 className="hero__l2">Next Great Idea</h1>
       </div>

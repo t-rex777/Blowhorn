@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Sidebar from "./../sidebar/Sidebar";
-function MobileNavbar() {
+function MobileNavbar({ setSignin, setSignup,setContact }) {
   const [toggle, setToggle] = useState(true);
   return (
     <nav className="mnavbar">
@@ -11,7 +11,14 @@ function MobileNavbar() {
         <span onClick={() => setToggle(!toggle)}>
           <GiHamburgerMenu />
         </span>
-        {<Sidebar toggle={toggle} />} 
+        {
+          <Sidebar
+            setSignin={setSignin}
+            setContact={setContact}
+            setSignup={setSignup}
+            toggle={toggle}
+          />
+        }
       </div>
     </nav>
   );

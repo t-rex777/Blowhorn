@@ -99,6 +99,7 @@
 .smallcard__img {
   max-width: 300px;
   border-radius: 10px;
+  transition: 300ms;
 }
 .smallcard__img:hover {
   transform: scale(1.05);

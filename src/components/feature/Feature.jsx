@@ -4,7 +4,7 @@ import { features } from "../../utils";
 
 function Feature() {
   return (
-    <div className="feature">
+    <div className="feature" id="feature">
       <h1 align="center">Our Features</h1>
       <p align="center">Check out out list of awesome features below</p>
       <div className="feature__boxes">

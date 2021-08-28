@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.form__cancel {
+  cursor: pointer;
+}
+.form__input {
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.form__submit {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #5c33f6;
+  color: #fff;
+  border: solid 2px #5c33f6;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.form__submit:hover {
+  background-color: #fff;
+  color: #5c33f6;
+}
+
+@media only screen and (min-width: 676px) {
+  .form {
+    width: 20rem;
+  }
+}
